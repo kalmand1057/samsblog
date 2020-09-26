@@ -9,7 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
 
         <!--BOOTSTRAP-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -19,133 +19,124 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
         <!--FONT STYLE-->
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"  rel="stylesheet">
 
-        
-        <!--css until i can figure out the css file-->
-        <style>
-            body{
-                text-align: left;
-                font-family: 'Playfair Display', Serif;
-            }
-
-            #div1 {
-                margin: 0 100 0 100;
-                padding: 20px;
-            }
-            nav {
-                background-color: salmon;
-                color: white;
-            }
-            .jumbotron {
-                background-image: url(https://markshimazuphotography.files.wordpress.com/2013/04/clouds_airplane_los_angeles_lax_landscape.jpg);
-                text-align: center;
-                background-size: cover;
-                color: whitesmoke;
-            }
-            .ice-cream-div {
-            margin-bottom: 20px;
-            padding: 50px;
-            height: 300px;
-            }
-            .ice-cream-img {
-                height: 300px;
-            }
-            .wave-div {
-              margin-bottom: 20px;
-              padding: 50px;
-              height: 300px;
-            }
-            .wave-img {
-              height: 300px;
-            }
-        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 
         <title>Sam's Blog</title>
     </head>
-    <body>
+    <body class="body">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!--navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Sam's Blog</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://google.com" target="_blank">Link (it's google)</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <h6>☾</h6>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <!--jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+            <!--navbar-->
+            <ul class="nav navbar-custom fixed-top">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#archives">Latest Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
 
-          <!--jumbotron-->
+          <div class="container">
+            <h3 class="display-2">To My Younger Self</h3>
+            <p class="display-5">A cute little motto or some phrase you always want people to see.</p>
+          </div>
+      </div>
 
-         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Welcome</h1>
-              <p class="lead">This will just be called Sam's Blog until you come up with a different name.</p>
-            </div>
-         </div>
+       <!--Top 3 blogs-->
+       <div id="home" class="card-deck">
+        <div class="card">
+          <img src="https://www.liveabout.com/thmb/G1V0LSE7tlNFEmJycoLPUiZzUCo=/1800x1200/filters:no_upscale():max_bytes(150000):strip_icc()/fashionjackson-5c34a62146e0fb000170b4d4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Blog Title 1 Thing on something</h3>
+            <p class="card-text"><small class="text-muted">Category here</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://media.theeverygirl.com/wp-content/uploads/2015/03/budget-friendly-fashion-bloggers-8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Blog Title 2 things you should do</h3>
+            <p class="card-text"><small class="text-muted">Category here</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://lh3.googleusercontent.com/proxy/-kfFJpUGlJnVRgXO1WolC6Nj47En-cMCIuGdQjWFp8HT1wwjMtubEKF8vJCrj52qpYDCfoAn_aocjT7sxIfmFyo0G96hPkaK-2RQQzdxWSfk5xzPHW5zh0Na-OMXz6DY1ivVIfktGajtLw" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Blog Title 3 Ways to do another thing</h3>
+            <p class="card-text"><small class="text-muted">Category here</small></p>
+          </div>
+        </div>
+      </div>
+     </div>
 
-                <div class="container">
-                    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-                    <div class="row ice-cream-div">
-                        <div class="col-md-4">
-                            <img class="ice-cream-img" src="https://66.media.tumblr.com/c3888d2c8279058468f07c697c902ffa/a54b3cbe91b5b999-16/s640x960/7502d4ca57654b75a35cf85df65659aefce2fb94.png" />
-                        </div>
-                      <div class="col-md-8">
-                          <h4>Here's Some stuff on it</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis suscipit diam, 
-                            a scelerisque felis commodo dignissim. Etiam nec est eget dui ultrices aliquam. Etiam 
-                            suscipit dui et turpis ullamcorper pretium. Quisque id magna et nisl laoreet varius. 
-                            Maecenas quis felis sed lacus euismod placerat. Duis libero nulla, mollis eu lorem ac, 
-                            imperdiet suscipit massa. Sed interdum nulla sed lectus pellentesque, id interdum nunc 
-                            blandit. Suspendisse vulputate elit et erat mollis volutpat. Donec sit amet sagittis felis. 
-                            Duis luctus, nulla tempus blandit pellentesque, mauris nunc fringilla lorem, a aliquet enim 
-                            leo eget dui. Morbi eget sem luctus, feugiat odio in, placerat justo. Mauris sed justo ac 
-                            metus ultricies tincidunt. Donec sed augue nunc.</p>
-                        </div>
-                        <div class="row wave-div">
-                          <div class="col-md-4">
-                        <img class="wave-img" src="https://i.pinimg.com/originals/c1/34/f6/c134f6cb6f8592338b09239b0fd1cca4.jpg">
-                        </div>
-                      <div class="col-md-8"><h4>Here's some more stuff ♥</h4>
-                        <p>Mauris imperdiet turpis id vehicula mollis. Vestibulum dignissim vel nisi eu pellentesque. Nam 
-                            placerat dapibus nulla, vel convallis felis porta auctor. Duis eleifend, tortor vel porta 
-                            ullamcorper, felis erat ullamcorper mauris, sit amet elementum urna arcu sed neque. Cras blandit 
-                            venenatis felis, vehicula rutrum sem porttitor sit amet. Donec sodales augue at ipsum maximus, 
-                            eget tincidunt purus euismod. Donec vitae ex eu arcu pellentesque porttitor vel quis ante. In 
-                            dapibus lectus sit amet elit molestie, eget venenatis magna suscipit. In cursus rutrum velit non 
-                            mattis. Curabitur risus nibh, bibendum id tincidunt non, tempus sed quam. Morbi interdum 
-                            ullamcorper risus, vel bibendum magna maximus eu. Mauris tincidunt tellus et ante mattis accumsan. 
-                            Nullam scelerisque, purus eu volutpat varius, tellus metus vestibulum justo, nec sodales ipsum est 
-                            non lectus. Nulla ut velit sapien. Aenean accumsan magna quis metus euismod, nec faucibus augue cursus. 
-                            Quisque a lectus velit.</p></div>
-                            </div>
+       <!--Archives-->
+       <div id="archives" class="card">
+        <div class="row no-gutters">
+          <div class="col-4">
+            <img src="https://cc-west-blog-assets.s3.amazonaws.com/uploads/2018/10/blogging-stats.jpg" class="card-img" alt="Archives">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <h1 class="card-title">Latest Posts</h1>
+                  <p class="card-text">
+                    <ul class="archives-list">
+                      <li>January</li>
+                      <li>February</li>
+                      <li>March</li>
+                    </ul>
+                  </p>
                 </div>
+                <div class="col">
+                  <ul class="archives-list">
+                    <li>April</li>
+                    <li>May</li>
+                    <li>June</li>
+                    <li>July</li>
+                    <li>August</li>
+                    <li>More...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!--About Me-->
+       <div id="about-me" class="card">
+        <div class="row no-gutters">
+          <div class="col-8">
+            <div class="card-body">
+              <h1 class="card-title">About Me</h1>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-4">
+            <img src="./assets/about me Logo.png" class="card-img about-me-img" alt="About Me">
+          </div>
+        </div>
+      </div>
+
+       <!--Contact-->
+       <div id="contact" class="contact container-fluid">
+         <h1>Contact</h1>
+         <p>Here's some logos or something</p>
+       </div>
+       
         <script src="" async defer></script>
     </body>
 </html>

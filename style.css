@@ -1,0 +1,70 @@
+.body{
+    text-align: left;
+    font-family: 'Playfair Display', Serif;
+}
+.jumbotron {
+    background-image: url(https://cdn.shopify.com/s/files/1/1056/3342/products/watercolor-mural-wallpaper-2_1024x1024.jpg?v=1561387930);
+    text-align: center;
+    background-size: cover;
+    background-color: #f8edea;
+    color: #4e997d;
+}
+#home {
+    border: 1px 0 1px; 
+}
+#archives {
+    border: 1px 0 1px; 
+}
+#about-me {
+    border: 1px 0 1px; 
+}
+#contact {
+    border: 1px 0 1px; 
+}
+.display-5 {
+    color: #e7b5ac;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Playfair Display', Serif;  
+}
+h3 {
+    font-family: 'Playfair Display', Serif;  
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.archives-list {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.navbar-custom {
+    background: transparent;
+}
+.nav-link {
+    font-family: 'Playfair Display', Serif;
+    color: #4e997d;
+}
+.nav-link:hover {
+    color: #e7b5ac;
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-me-img {
+    max-height: 350px;
+}
+.container {
+    padding: 20px;
+}
+.card-img-top {
+    height: 400px;
+    max-width: 100%;
+}
